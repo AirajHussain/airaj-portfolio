@@ -1,6 +1,6 @@
-import { backend, cp, docker,frontend, kafka, login,redis, wildfire, table,listings,playback} from '../assets';
+import { backend, cp, docker,frontend,login,redis, wildfire, table,listings,playback} from '../assets';
 import { python,sql,c, java, django, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, typescript, } from '../assets';
-import logo from "./logo.svg";
+
 export const resumeLink = "";
 
 

@@ -7,7 +7,7 @@ import { context } from '../App';
 const Navbar = () => {
 	const [active, setActive] = useState("");
 	const [toggle, setToggle] = useState(false);
-	const { isLight, setIsLight } = useContext(context);
+	const { isLight } = useContext(context);
     const navLinks = ["About", "Skills", "Projects"];
 
 	const navigate = useNavigate();
